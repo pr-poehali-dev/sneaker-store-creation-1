@@ -22,26 +22,26 @@ export default {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				background: '#000000',
+				foreground: '#FF6B35',
 				primary: {
 					DEFAULT: '#FF6B35',
-					foreground: '#FFFFFF'
+					foreground: '#000000'
 				},
 				secondary: {
-					DEFAULT: '#000000',
-					foreground: '#FFFFFF'
+					DEFAULT: '#FF6B35',
+					foreground: '#000000'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
 				},
 				muted: {
-					DEFAULT: '#F8F9FA',
-					foreground: '#6C757D'
+					DEFAULT: '#111111',
+					foreground: '#FF6B35'
 				},
 				accent: {
-					DEFAULT: '#78F9FA',
+					DEFAULT: '#FF6B35',
 					foreground: '#000000'
 				},
 				popover: {
@@ -49,8 +49,8 @@ export default {
 					foreground: 'hsl(var(--popover-foreground))'
 				},
 				card: {
-					DEFAULT: '#FFFFFF',
-					foreground: '#000000'
+					DEFAULT: '#111111',
+					foreground: '#FF6B35'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
